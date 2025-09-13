@@ -233,10 +233,10 @@
 
           <p class="long_explanation_solid">
             <br>
-            My knowledge in computer science includes working on embedded systems such as Systemboards, RasberryPi, and LattePanda.
+            I've spent a lot of time on embedded programming, becoming fluent with operating systems and creating autonomous processes.
             <br>
             <br>
-            However, most of my time has been dedicated to full stack development of web applications. At this point, Django has been my go-to framework.
+            C, Python, and Java are my strongest languages as I've continually used them on projects. CSS, Typescript, and HTML are next in line.
           </p>
 
           <img src="SystemBoard.jpg" alt="Me" class="example shift_right">
@@ -246,9 +246,9 @@
           <img src="Django.jpg" alt="Me" class="example shift_left">
 
           <p class="explanation_hollow">
-            Things that I have been learning as a hobby include cloud engineering with AWS 
-            and video game development with Roblox Studio.
-            Although I don't have a presentable project for these two areas, I always love to discuss my experiences within them.
+            As I've worked on these projects and in school, I have considered myself a quick learner
+            I have reviewed large codebases and utilized custom libraries under deaadlines.
+            I am no stranger to learning new tools like services, game engines, and frameworks.
           </p>
 
           <img src="AWSLogo.png" alt="Me" class="example shift_right">
@@ -261,10 +261,10 @@
 
         <div class="section_body">
           <p class="explanation_hollow">
-            Cal Poly CubeSat Laboratory, AKA PolySat, is an on campus research lab. 
+            Cal Poly CubeSat Laboratory, AKA PolySat, is research lab that has built 16 satellites since 2003
             <br>
             <br>
-            I am a part of the software team and responsible for various software components for our newest launch.
+            With the 16th undergoing its final revisions and tests, I was responsible for parts of its software.
           </p>
 
           <img src="CubeSatLogo.png" alt="Logo" class="long_example shift_right">
@@ -273,12 +273,11 @@
           <br>
 
           <p class="long_explanation_solid">
-            SAL-E will be launched Fall 2025, which means that we've already gotten a lot done, but there is still lots more to do.
+            SAL-E will be launched Winter 2025, to get to this point I had to work with the rest of the multidisciplinary team with strict deadlines.
+            I handled this work enviroment quite well as I significantly contributed to meetings and workload
             <br>
-            <br>
-            The things I have done include updating the core processes on our Systemboard under our Linux Kernel.
-            These processes include Watchdog, Satcomm, and Clock-Sync. I've also programmed kernel drivers to recognize devices.
-            For testing I have also emulated the processes on my virtual machine to compare expected outputs.
+            Specifically, I was solely responsible for interfacing with one of the two payload devices on this satellite.
+            I had to take part in developing the firmware on the device to ensure we could communicate with this device via UART
           </p>
 
           <img src="CubeSats.jpg" alt="Sats" class="example shift_right">
@@ -289,25 +288,20 @@
           <img src="Carp.png" alt="CARP design" class="long_example shift_left">
 
           <p class="explanation_hollow">
-            I designed and programmed the CARP payload, which interfaces with two chips to collect radiation data. 
-            All the core-processes including my payload process use C as the main programming language.
+            I created an autonomous process to communicate with the payload device with a self-made SLIP packet structure.
+            Restarts, ground station cmds, and downlinking data are managed by other core processes via sockets with my process.
           </p>
 
           <br>
 
           <p class="long_explanation_solid">
             <br>
-            Since I am communicating between two master devices, 
-            I learned to use a set of custom communication protocols involving I2C, SPI, and UART.
+            Most of my work was written in C and XDR,
+            to be compiled using buildroot and then flashed onto a systemboard
             <br>
             <br>
-            As all the processes on the SystemBoard run concurrently, I also manage inter-process communication. 
-            This is usually done with our custom libraries that I quickly mastered.
-          </p>
-
-          <p class="explanation_solid">
-            <br>
-            Due to the International Traffic in Arms Regulation (ITAR), I can't disclose all the details nor images on these projects.
+            My favorite part about working with this environment was the tangibility of being able to interact with
+            all of the executables and drivers on the sattelite and running/loading them manually to test their behaviours.
           </p>
         </div>
 
